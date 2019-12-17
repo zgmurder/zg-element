@@ -23,7 +23,7 @@ sidebar: auto
 
   `zg-table`设置`align`属性可以设置整体表格的对齐方式，默认`left`左对齐，可配置项：`left`、`center`、`right`。
 
-  `column`中可单独为某个字段配置`align`，优先级`column配置的align` > `lb-table配置的align`。
+  `column`中可单独为某个字段配置`align`，优先级`column配置的align` > `zg-table配置的align`。
   
   表头对齐`header-align`同理，如果不设置对齐方式同`column`和`zg-table`设置的`align`
 

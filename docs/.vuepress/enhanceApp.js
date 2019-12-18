@@ -5,6 +5,7 @@ import VueHighlightJS from 'vue-highlight.js';
 import 'highlight.js/styles/atom-one-dark.css';
 import Element from 'element-ui'
 import ZgTable from './components/src/zg-table'
+import ZgForm from './components/src/zg-form'
 import DemoBlock from './components/demo-block/demo-block'
 import 'element-ui/lib/theme-chalk/index.css'
 import VueECharts from 'vue-echarts' //注册图表
@@ -22,5 +23,6 @@ export default ({
   Vue.use(Element)
   // Vue.component('chart', VueECharts)
   Vue.component('zg-table', ZgTable)
+  Vue.component('zg-form', ZgForm)
   Vue.component('demo-block', DemoBlock)
 }

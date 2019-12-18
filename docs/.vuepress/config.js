@@ -7,15 +7,8 @@ module.exports = {
     nav: [
       { text: '主页', link: '/' }, // 导航条
       { text: '组件文档', link: '/views/' },
-      { text: '知识库', link: '/knowledge/' },
-      {
-        text: 'github',
-        // 这里是下拉列表展现形式。
-        items: [
-          { text: 'focus-outside', link: 'https://github.com/TaoXuSheng/focus-outside' },
-          { text: 'stylus-converter', link: 'https://github.com/TaoXuSheng/stylus-converter' },
-        ]
-      }
+      // { text: '知识库', link: '/knowledge/' },
+      { text: 'github',link:'https://github.com/zgmurder/zg-element'}
     ],
     // 为以下路由添加侧边栏
     sidebar:{
@@ -48,6 +41,18 @@ module.exports = {
             'table/merge-table',
             'table/edit-table',
             'table/edit-dialog-table',
+          ]
+        },
+        {
+          title: '基于el-form组件的封装',
+          collapsable: true,
+          children: [
+            'form/base-form',
+            'form/inline-form',
+            'form/align-form',
+            'form/validate-form',
+            'form/custom-validate-form',
+            'form/dynamic-item-form',
           ]
         },
         // {
